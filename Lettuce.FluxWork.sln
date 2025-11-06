@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lettuce.FluxWork", "Lettuce.FluxWork\Lettuce.FluxWork.csproj", "{98DE0066-C29C-4C12-A6F5-67C743675C98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lettuce.FluxWork.Tests", "Lettuce.FluxWork.Tests\Lettuce.FluxWork.Tests.csproj", "{2FD71FB0-DC10-447A-BF75-BD3AA12C3E6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -10,5 +14,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98DE0066-C29C-4C12-A6F5-67C743675C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98DE0066-C29C-4C12-A6F5-67C743675C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98DE0066-C29C-4C12-A6F5-67C743675C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98DE0066-C29C-4C12-A6F5-67C743675C98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FD71FB0-DC10-447A-BF75-BD3AA12C3E6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FD71FB0-DC10-447A-BF75-BD3AA12C3E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FD71FB0-DC10-447A-BF75-BD3AA12C3E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FD71FB0-DC10-447A-BF75-BD3AA12C3E6D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -13,7 +13,7 @@ jobs:
   create-package-artifact:
     uses: TheKingOfLettuce/LettuceGithubWorkflows/.github/workflows/Package-dotnet.yml@main
     with:
-      dotnet-version: 8.0.x
+      dotnet-version: 9.0.x
       configuration: Release
       upload-artifact: true
       artifact-name: Lettuce.FluxWork_${{ github.ref_name }}
