@@ -11,14 +11,14 @@ A minimalistic scheduling library for running sync or async work on configured i
 ### Basic Schedule
 Scheduling work is extremely simple with `Flux`, here is an example with a simple lambda 
 ```csharp
-WorkHandle work = Flux.Schedule(() => Console.WriteLine("We are up and live!"), TimeSpan.FromSeconds(1));
+Flux.Schedule(() => Console.WriteLine("We are up and live!"), TimeSpan.FromSeconds(1));
 ```
 
 ### Basic Schedule with Data
 Have data that needs to be passed as a parameter, pass it to `Flux` so it can be efficiently captured
 ```csharp
 T myDataParameter = ...;
-WorkHandle work = Flux.Schedule<T>((T dataParameter) => Console.WriteLine($"Got my parameter {dataParameter}"), myDataParameter, TimeSpan.FromSeconds(1));
+Flux.Schedule<T>((T dataParameter) => Console.WriteLine($"Got my parameter {dataParameter}"), myDataParameter, TimeSpan.FromSeconds(1));
 ```
 
 ### Pausing and Removing Work
